@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package } from "lucide-react";
+import { LockKeyhole } from "lucide-react";
 
 const MarketPlace = () => {
   return (
@@ -16,7 +16,7 @@ const MarketPlace = () => {
         {/* Farmers */}
         <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6  bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
-            <Package size={24} />
+            <LockKeyhole size={26} />
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">For Farmers</h3>
           <p className="text-base sm:text-lg">
@@ -27,7 +27,7 @@ const MarketPlace = () => {
         {/* Buyers */}
         <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
-            B
+            <LockKeyhole size={26} />
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">For Buyers</h3>
           <p className="text-base sm:text-lg">
@@ -38,7 +38,7 @@ const MarketPlace = () => {
         {/* Distributors */}
         <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
-            D
+            <LockKeyhole size={26} />
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">For Distributors</h3>
           <p className="text-base sm:text-lg">
@@ -49,7 +49,7 @@ const MarketPlace = () => {
         {/* Job Seekers */}
         <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
-            J
+            <LockKeyhole size={26} />
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">For Job Seekers</h3>
           <p className="text-base sm:text-lg">
