@@ -1,0 +1,138 @@
+#HeroSection {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 70px 90px;
+}
+h1 { 
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 61px;
+  line-height: 74px;
+  letter-spacing: 0%;
+}
+.para {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.3px;
+  letter-spacing: 0;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0;
+  align-items: center;
+  margin-top: 30px;
+}
+.btn1,
+.btn2 {
+  border-radius: 40px;
+  padding: 20px 30px;
+  width: 400px;
+  font-weight: 600;
+  display: inline-block; 
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn1 {
+  color: white;
+  background-color: #0F4D0F;
+}
+
+.btn2 {
+  color: white;
+  background-color: rgba(0, 100, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 5px solid #0F4D0F;
+  border-radius: 30px;
+}
+
+.btn1:hover,
+.btn2:hover {
+  transform: scale(1.05); 
+}
+@media(max-width: 768px) {
+  #HeroSection {
+  padding: 35px 30px;
+  text-align: center;
+  margin: auto;
+}
+.Agric {
+  margin-top: 100px;
+  background-color:rgba(0, 100, 0, 0.2);
+   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  padding: 10px;
+  border-radius: 50px;
+}
+  h1 {
+  font-size: 2.3rem;
+  line-height: 40px;
+  padding: 0px 60px;
+}
+.para  {
+  font-size: 1.3rem;
+  line-height: 25px;
+  padding: 0px 40px;
+}
+
+.btn1 {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.btn2 {
+  display: none;
+}
+}
+@media(max-width: 390px) {
+.Agric {
+  margin-top: 80px;
+  padding: 8px;
+}
+    h1 {
+  font-size: 1.5rem;
+  line-height: 30px;
+  padding: 0px 60px;
+}
+.para  {
+  font-size: 1.3rem;
+  line-height: 25px;
+  padding: 0px 40px;
+}
+.btn1 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+}
+@media(max-width: 320px) {
+  .Agric {
+    padding: 10px;
+  }
+    h1 {
+  font-size: 1rem;
+  line-height: 30px;
+  padding: 0px 60px;
+}
+.para  {
+  font-size: 1rem;
+  line-height: 19px;
+  padding: 0px 40px;
+}
+.btn1 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+}

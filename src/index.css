@@ -1,10 +1,13 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@theme {
-  --color-Green: #008000;
-  --color-ForestGreen: #0F4D0F;
-  --color-LightGreen: #5CE65C;
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero2 {
+  background-image: url("assets/strawberry-field copy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }

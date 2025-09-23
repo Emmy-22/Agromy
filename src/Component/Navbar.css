@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 90px;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.menu-icon {
+  color: white;
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.0rem;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.05);
+}
+
+
+.JoinNow {
+  display: block;
+  background: white;
+  color: #008000;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Hide the dropdown Join on desktop */
+.nav-links li a.Join {
+  display: none;
+}
+.Join {
+  display: none;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .navbar {
+  padding: 15px 30px;
+  background-color: rgba(0, 100, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%; 
+    flex-direction: column;
+    background: white;
+    color: #004900;        
+    display: none;
+    padding: 20px 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  }
+  .nav-links a {
+    color: #0F4D0F !important;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .nav-links li a.Join {
+    display: block;
+    color: white !important;
+    
+  }
+  .Join {
+    display: block;
+    background-color: #0F4D0F;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 1px auto;
+    width: 50%;
+  }
+
+  .JoinNow {
+    display: none;
+  }
+}

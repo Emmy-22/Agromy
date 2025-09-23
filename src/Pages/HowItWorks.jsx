@@ -10,9 +10,9 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="w-full py-16 px-4 sm:px-6 lg:px-10 bg-LightGreen/10">
+    <section id="HowItWorks" className="w-full py-16 px-4 sm:px-6 lg:px-10 bg-[#5CE65C]/10">
       {/* Heading */}
-      <div className="text-center mb-12 text-ForestGreen">
+      <div className="text-center mb-12 text-[#0F4D0F]">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6">
           Simple, Transparent, Secure
         </h2>
@@ -24,9 +24,9 @@ const HowItWorks = () => {
         {steps.map((step, index) => (
           <div
             key={index}
-            className="bg-LightGreen w-full text-ForestGreen font-semibold rounded-2xl shadow-md p-6 flex flex-col items-center justify-center text-center hover:shadow-xl transition-all min-h-[220px] sm:min-h-[240px] lg:min-h-[260px]"
+            className="bg-[#5CE65C] w-full text-[#0F4D0F] font-semibold rounded-2xl shadow-md p-6 flex flex-col items-center justify-center text-center hover:shadow-xl transition-all min-h-[220px] sm:min-h-[240px] lg:min-h-[260px]"
           >
-            <h3 className="text-xl md:text-2xl font-bold mb-4 border-b border-ForestGreen pb-2">
+            <h3 className="text-xl md:text-2xl font-bold mb-4 border-b border-[#0F4D0F] pb-2">
               {step.title}
             </h3>
             <p className="text-sm md:text-base leading-snug">{step.desc}</p>
