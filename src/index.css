@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-Green: #008000;
+  --color-ForestGreen: #0F4D0F;
+  --color-LightGreen: #5CE65C;
+}

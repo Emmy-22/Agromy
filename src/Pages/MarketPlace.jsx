@@ -6,15 +6,15 @@ const MarketPlace = () => {
     <section className="w-full bg-white py-20 px-4 sm:px-6 lg:px-8 text-center">
       {/* Section 1 */}
       <div className="py-6">
-        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black mb-10">
+        <h2 className="text-5xl lg:text-7xl font-extrabold text-ForestGreen mb-10 sm:p-0">
           What You Get With Agromy
         </h2>
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-7xl mx-auto px-1 lg:px-4 ">
         {/* Farmers */}
-        <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
+        <div className="bg-gradient-to-l from-Green to-ForestGreen text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6  bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
             <LockKeyhole size={26} />
           </div>
@@ -25,7 +25,7 @@ const MarketPlace = () => {
         </div>
 
         {/* Buyers */}
-        <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
+        <div className="bg-gradient-to-tr from-ForestGreen to-Green text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
             <LockKeyhole size={26} />
           </div>
@@ -36,7 +36,7 @@ const MarketPlace = () => {
         </div>
 
         {/* Distributors */}
-        <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
+        <div className="bg-gradient-to-l from-Green to-ForestGreen text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
             <LockKeyhole size={26} />
           </div>
@@ -47,7 +47,7 @@ const MarketPlace = () => {
         </div>
 
         {/* Job Seekers */}
-        <div className="bg-black text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
+        <div className="bg-gradient-to-tr from-ForestGreen to-Green text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6 bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
             <LockKeyhole size={26} />
           </div>
