@@ -2,21 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 60px;
+  padding: 30px 90px;
+  font-family: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
 }
 
 .logo {
+  color: white;
   font-size: 1.5rem;
   font-weight: 900;
-  color: black;
 }
 
 .menu-icon {
+  color: white;
   display: none;
   font-size: 1.5rem;
+  padding-top: 10px;
   cursor: pointer;
 }
 
@@ -24,32 +27,31 @@ a {
   display: flex;
   gap: 20px;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .nav-links li a {
   display: inline-block;
-  color: #000; 
+  color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.0rem;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .nav-links li a:hover {
   transform: scale(1.05);
-  color: #007BFF;
 }
 
 
 .JoinNow {
   display: block;
-  background: black;
-  color: white;
+  background: white;
+  color: #008000;
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Hide the dropdown Join on desktop */
@@ -67,23 +69,39 @@ a {
   }
   .navbar {
   padding: 15px 30px;
+  background-color: rgba(0, 100, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
   .nav-links {
     position: absolute;
     top: 60px;
     right: 0;
-    width: 60%; 
+    width: 100%; 
     flex-direction: column;
-    background: white;        
+    background: white;
+    color: #004900;        
     display: none;
     padding: 20px 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
   }
-
+  .nav-links a {
+    color: #004900 !important;
+  }
   .nav-links.active {
     display: flex;
   }
+
 
   .nav-links li {
     text-align: center;
@@ -95,8 +113,9 @@ a {
   }
   .Join {
     display: block;
-    background: black;
-    color: white !important;
+    background-color: rgba(0, 100, 0, 0.2);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px); 
     padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
