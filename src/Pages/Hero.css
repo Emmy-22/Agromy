@@ -2,7 +2,7 @@
   text-align: center;
   align-items: center;
   margin: auto;
-  padding: 30px 90px;
+  padding: 70px 90px;
 }
 h1 { 
   margin-bottom: 20px;
@@ -21,7 +21,7 @@ h1 {
   line-height: 30.3px;
   letter-spacing: 0;
   font-family: 'Inter', sans-serif;
-  margin-bottom: 45px;
+  
 }
 
 .button {
@@ -34,6 +34,7 @@ h1 {
   line-height: 30px;
   letter-spacing: 0;
   align-items: center;
+  margin-top: 30px;
 }
 .btn1,
 .btn2 {
@@ -47,7 +48,7 @@ h1 {
 
 .btn1 {
   color: white;
-  background-color: #008000;
+  background-color: #0F4D0F;
 }
 
 .btn2 {
@@ -55,7 +56,7 @@ h1 {
   background-color: rgba(0, 100, 0, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 5px solid #008000;
+  border: 5px solid #0F4D0F;
   border-radius: 30px;
 }
 
@@ -74,7 +75,7 @@ h1 {
   background-color:rgba(0, 100, 0, 0.2);
    backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); 
-  padding: 1px;
+  padding: 10px;
   border-radius: 50px;
 }
   h1 {
@@ -89,7 +90,7 @@ h1 {
 }
 
 .btn1 {
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 1rem;
 }
 .btn2 {
@@ -99,9 +100,10 @@ h1 {
 @media(max-width: 390px) {
 .Agric {
   margin-top: 80px;
+  padding: 8px;
 }
     h1 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 30px;
   padding: 0px 60px;
 }
@@ -116,8 +118,11 @@ h1 {
 }
 }
 @media(max-width: 320px) {
+  .Agric {
+    padding: 10px;
+  }
     h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 30px;
   padding: 0px 60px;
 }

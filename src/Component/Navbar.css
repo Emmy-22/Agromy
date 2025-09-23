@@ -19,7 +19,6 @@ a {
   color: white;
   display: none;
   font-size: 1.5rem;
-  padding-top: 10px;
   cursor: pointer;
 }
 
@@ -27,7 +26,6 @@ a {
   display: flex;
   gap: 20px;
   list-style: none;
-  margin-top: 20px;
 }
 
 .nav-links li a {
@@ -83,7 +81,7 @@ a {
 
   .nav-links {
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 0;
     width: 100%; 
     flex-direction: column;
@@ -96,7 +94,7 @@ a {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
   }
   .nav-links a {
-    color: #004900 !important;
+    color: #0F4D0F !important;
   }
   .nav-links.active {
     display: flex;
@@ -110,12 +108,12 @@ a {
 
   .nav-links li a.Join {
     display: block;
+    color: white !important;
+    
   }
   .Join {
     display: block;
-    background-color: rgba(0, 100, 0, 0.2);
-   backdrop-filter: blur(10px);
-   -webkit-backdrop-filter: blur(10px); 
+    background-color: #0F4D0F;
     padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
