@@ -12,7 +12,7 @@ const MarketPlace = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-7xl mx-auto px-1 lg:px-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-7xl mx-auto px-1 lg:px-4 ">
         {/* Farmers */}
         <div className="bg-gradient-to-l from-Green to-ForestGreen text-white rounded-2xl p-10 sm:p-12 lg:p-14 shadow-md">
           <div className="w-60 h-14 mx-auto mb-6  bg-white text-black flex items-center justify-center rounded-full font-bold text-lg">
