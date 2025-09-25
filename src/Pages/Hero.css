@@ -3,6 +3,7 @@
   align-items: center;
   margin: auto;
   padding: 70px 90px;
+   height: 88vh;
 }
 h1 { 
   margin-bottom: 20px;
@@ -12,6 +13,7 @@ h1 {
   font-size: 61px;
   line-height: 74px;
   letter-spacing: 0%;
+  padding: 3rem 0;
 }
 .para {
   text-align: center;
@@ -35,7 +37,8 @@ h1 {
   line-height: 30px;
   letter-spacing: 0;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 2rem;
+  padding-top: 3rem;
 }
 .btn1,
 .btn2 {
