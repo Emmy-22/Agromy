@@ -20,7 +20,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.hero2 {
+  background-image: url("assets/strawberry-field copy.jpg");
+  background-size: cover;
+  background-position: center;
 
+}
 body {
   min-width: 320px;
   min-height: 100vh;

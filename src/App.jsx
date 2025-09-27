@@ -7,7 +7,7 @@ import Testimony from "./Pages/TestimonySection";
 import FooterSection from "./Pages/FooterSection";
 import './App.css'
 
-function App() {
+const App = () => {
   
 
   return (
