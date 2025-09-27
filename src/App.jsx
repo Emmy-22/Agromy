@@ -1,15 +1,17 @@
-
 import Navbar from "./Component/Navbar"
 import HeroSection from "./Pages/HeroSection"
 import About from "./Pages/About"
 import MarketPlace from './Pages/MarketPlace'
 import HowItWorks from './Pages/HowItWorks'
+import Testimony from "./Pages/TestimonySection";
+import FooterSection from "./Pages/FooterSection";
 import './App.css'
 
-const App = () => {
-  return (
+function App() {
+  
 
-    <div>
+  return (
+     <div>
       <div className="hero2">
       <Navbar />
       <HeroSection />
@@ -17,9 +19,11 @@ const App = () => {
       <About />
       <MarketPlace />
       <HowItWorks />
+      <Testimony />
+      <FooterSection />
     </div>
-
+     
   )
 }
 
-export default App
+export default App; 

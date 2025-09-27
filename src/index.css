@@ -1,15 +1,68 @@
 @import "tailwindcss";
+:root {
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  font-weight: 500;
 
-body {
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+
+}
+*{
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
-.hero2 {
-  background-image: url("assets/strawberry-field copy.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  opacity: 0.9;
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+ 
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 2rem;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family:"montserrat", sans-serif;
+  background-color: #0f6313;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background-color: #18cf21;
+  font-size: 1.2rem;
+}
+button:focus,
+button:focus-visible {
+  outline: 1px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    background-color: #18cf21;
+    color:#000;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
