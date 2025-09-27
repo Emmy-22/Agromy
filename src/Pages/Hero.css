@@ -3,6 +3,7 @@
   align-items: center;
   margin: auto;
   padding: 70px 90px;
+   height: 88vh;
 }
 h1 { 
   margin-bottom: 20px;
@@ -12,15 +13,17 @@ h1 {
   font-size: 61px;
   line-height: 74px;
   letter-spacing: 0%;
+  padding: 3rem 0;
 }
 .para {
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 30.3px;
   letter-spacing: 0;
   font-family: 'Inter', sans-serif;
+  text-shadow: black 0.4em 0.2em 0.4em;
   
 }
 
@@ -34,7 +37,8 @@ h1 {
   line-height: 30px;
   letter-spacing: 0;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 2rem;
+  padding-top: 3rem;
 }
 .btn1,
 .btn2 {
@@ -108,9 +112,10 @@ h1 {
   padding: 0px 60px;
 }
 .para  {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 25px;
   padding: 0px 40px;
+  font-weight: 200;
 }
 .btn1 {
     margin-top: 20px;

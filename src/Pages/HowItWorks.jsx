@@ -20,11 +20,11 @@ const HowItWorks = () => {
       </div>
 
       {/* Steps Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 ">
         {steps.map((step, index) => (
           <div
             key={index}
-            className="bg-[#5CE65C] w-full text-[#0F4D0F] font-semibold rounded-2xl shadow-md p-6 flex flex-col items-center justify-center text-center hover:shadow-xl transition-all min-h-[220px] sm:min-h-[240px] lg:min-h-[260px]"
+            className="bg-[#5CE65C] w-full text-[#0F4D0F] font-semibold rounded-2xl shadow-md p-6 flex flex-col items-center justify-center text-center transition-all min-h-[220px] sm:min-h-[240px] lg:min-h-[260px] cursor-pointer hover:shadow-xl"
           >
             <h3 className="text-xl md:text-2xl font-bold mb-4 border-b border-[#0F4D0F] pb-2">
               {step.title}
