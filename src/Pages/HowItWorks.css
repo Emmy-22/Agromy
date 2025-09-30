@@ -69,6 +69,7 @@
   justify-content: center;
   min-height: 240px;
   cursor: pointer;
+  margin: 0 2rem;
 }
 
 .step-card:hover {
@@ -78,6 +79,7 @@
 @media (min-width: 640px) {
   .step-card {
     min-height: 260px;
+    margin: 0;
   }
 }
 
