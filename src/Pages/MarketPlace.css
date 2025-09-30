@@ -1,0 +1,139 @@
+/* Root Section */
+.marketplace-section {
+  width: 100%;
+  background-color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .marketplace-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .marketplace-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Section Title */
+.marketplace-title {
+  padding: 1.5rem 0;
+}
+
+.marketplace-title h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: ForestGreen;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .marketplace-title h2 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .marketplace-title h2 {
+    padding: 0;
+  }
+}
+
+/* Grid Container */
+.marketplace-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding:0  0.25rem;
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .marketplace-grid {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .marketplace-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .marketplace-grid {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+}
+
+/* Card Styles */
+.marketplace-card {
+  color: white;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to left, Green, ForestGreen);
+}
+
+.marketplace-card.alt {
+  background-image: linear-gradient(to top right, ForestGreen, Green);
+}
+
+@media (min-width: 640px) {
+  .marketplace-card {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .marketplace-card {
+    padding: 3.5rem;
+  }
+}
+
+/* Icon Container */
+.marketplace-icon {
+  width: 15rem;
+  height: 3.5rem;
+  margin: 0 auto 1.5rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+/* Card Heading */
+.marketplace-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .marketplace-card h3 {
+    font-size: 1.875rem;
+  }
+}
+
+/* Card Paragraph */
+.marketplace-card p {
+  font-size: 1rem;
+}
+
+@media (min-width: 640px) {
+  .marketplace-card p {
+    font-size: 1.125rem;
+  }
+}
