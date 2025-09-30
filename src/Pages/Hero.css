@@ -70,7 +70,7 @@ h1 {
 }
 @media(max-width: 768px) {
   #HeroSection {
-  padding: 35px 30px;
+  padding: 5px 30px;
   text-align: center;
   margin: auto;
 }
