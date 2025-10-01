@@ -1,5 +1,5 @@
 
-function FooterSection(info) {
+function FooterSection() {
     return(
       <div className="footer-container">  
         <h1>Agromy</h1>

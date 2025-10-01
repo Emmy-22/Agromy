@@ -29,6 +29,7 @@
 img {
   width: 350px;
   height: 500px;
+  object-fit: cover;
   border-radius: 50px;
 }
 @media(max-width: 768px){

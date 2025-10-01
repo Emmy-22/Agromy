@@ -16,8 +16,8 @@
 
 }
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 .hero2 {
@@ -29,8 +29,6 @@
 body {
   min-width: 320px;
   min-height: 100vh;
- 
-  
 }
 
 h1 {
@@ -63,10 +61,7 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    background-color: #18cf21;
-    color:#000;
-  }
+ 
   button {
     background-color: #f9f9f9;
   }
