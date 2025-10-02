@@ -5,11 +5,11 @@ import MarketPlace from './Pages/MarketPlace'
 import HowItWorks from './Pages/HowItWorks'
 import Testimony from "./Pages/TestimonySection";
 import FooterSection from "./Pages/FooterSection";
+import Loginpage from "./Pages/Loginpage";
 import './App.css'
 
 const App = () => {
   
-
   return (
      <div>
       <div className="hero2">
@@ -21,6 +21,7 @@ const App = () => {
       <HowItWorks />
       <Testimony />
       <FooterSection />
+      <Loginpage />
     </div>
      
   )
