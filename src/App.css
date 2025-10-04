@@ -51,7 +51,7 @@
   font-size: 3rem;
   font-family: "montserrat", sans-serif;
   margin-bottom: 30px;
-   font-weight: 900;
+   font-weight: 600;
   margin-bottom: 1rem;
   font-family: "montserrat", sans-serif;
 }
@@ -84,7 +84,7 @@
 .cta h2{
   margin-top: 20px;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 .cta p {
@@ -130,7 +130,7 @@
 }
 .testy h2{
   font-size: 2.2rem;
-  font-weight: 900;
+  font-weight: 600;
   
   font-family: "montserrat", sans-serif;
   margin-bottom: 30px;
@@ -197,7 +197,7 @@
   font-family: "Agrandir", sans-serif;
   margin-bottom: 10px;
   font-size: 27px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer-section a {
