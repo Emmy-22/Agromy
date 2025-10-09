@@ -10,8 +10,8 @@ const HeroSection = () => {
       </p>
       </div>
       <div className="button">
-        <a href="#" className="btn1">Join the Marketplace</a>
-        <a href="#" className="btn2">Explore Agromy</a>
+        <a href="https://agromy-webapp-gb2jazrxg-agromys-projects-1774feed.vercel.app" className="btn1">Join the Marketplace</a>
+        <a href="https://agromy-webapp-gb2jazrxg-agromys-projects-1774feed.vercel.app" className="btn2">Explore Agromy</a>
       </div>
     </div>
   )

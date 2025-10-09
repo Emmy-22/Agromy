@@ -19,10 +19,10 @@ const Navbar = () => {
         <li><a href="#About" onClick={() => setIsOpen(false)}>About Us</a></li>
         <li><a href="#MarketPlace" onClick={() => setIsOpen(false)}>Marketplace</a></li>
         <li><a href="#HowItWorks" onClick={() => setIsOpen(false)}>How It Works</a></li>
-        <li><a href="#" className="Join"  onClick={() => setIsOpen(false)}>Join Now</a></li>
+        <li><a href="https://agromy-webapp-gb2jazrxg-agromys-projects-1774feed.vercel.app" className="Join"  onClick={() => setIsOpen(false)}>Join Now</a></li>
       </ul>
 
-      <a href="#" className="JoinNow" onClick={() => setIsOpen(false)}>Join Now</a>
+      <a href="https://agromy-webapp-gb2jazrxg-agromys-projects-1774feed.vercel.app" className="JoinNow" onClick={() => setIsOpen(false)}>Join Now</a>
     </nav>
   );
 };

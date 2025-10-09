@@ -26,7 +26,7 @@ function Testimony () {
         <img src="./img/Workers.png" alt="" />
         <h2>Join the Future of Agriculture Today</h2>
         <p>Agromy is not just about buying and selling it’s about creating prosperity, breaking barriers, and building the future of Nigerian agriculture. Be part of the movement.</p>
-        <button className="get-started-btn" onClick={getStartedBtn}>Get Started Now</button>
+        <a href='https://agromy-webapp-gb2jazrxg-agromys-projects-1774feed.vercel.app' className="get-started-btn" >Get Started Now</a>
       </div>
       </section>
     )

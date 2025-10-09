@@ -103,7 +103,7 @@
   padding:0.8rem 15rem;
   background-color: #0f6313;
    color: white;
-
+  border-radius: 20px;
 }
 .get-started-btn:hover{
   background-color: #18cf21;
